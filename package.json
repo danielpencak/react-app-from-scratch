@@ -2,7 +2,7 @@
 	"name": "react-app-from-scratch",
 	"version": "0.1.0",
 	"description": "",
-	"main": "index.js",
+	"main": "index.jsx",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"start": "webpack-dev-server ./src",
