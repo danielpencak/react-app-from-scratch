@@ -1,0 +1,13 @@
+// eslint-disable-next-line import/no-extraneous-dependencies
+import { render, screen } from '@testing-library/react';
+import React from 'react';
+
+import App from '../App.jsx';
+
+describe('App tests', () => {
+  it('should contain the heading', () => {
+    render(<App />);
+    const heading = screen.getByText(/Hello world! I am using React./i);
+    expect(heading).toBeInTheDocument();
+  })
+})
